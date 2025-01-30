@@ -7,7 +7,7 @@ The dataset contains user-song interactions, including genres, years, artists.
 
 - Initial data exploration revealed insights into song characteristics like 'valence', 'year', 'acousticness', 'danceability', 'duration_ms', 'energy', 'explicit',
  'instrumentalness', 'key', 'liveness', 'loudness', 'mode', 'popularity', 'speechiness', 'tempo'
-- Yellowbrick's corr function was used to analyze feature correlations and identify relevant features for clustering.
+- Yellowbricks package (https://www.scikit-yb.org/en/latest/index.html) was used to analyze feature correlations and identify relevant features for clustering.
 
 Methodology:
 1. Data Preprocessing: Data cleaning, filtering, and normalization.
